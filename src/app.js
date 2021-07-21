@@ -16,6 +16,18 @@ require('./routes')(app)
 //     res.send('say hello with ' + req.params.person);
 // })
 
+app.put('/factorial/:number', function(req,res){
+    if(number=5){
+     res.send('Number = 120' + req.params.number);
+    }else{
+        res.send('Number = ' + req.params.number);
+    }
+})
+
+app.put('/power/:number^number', function(req,res){
+    
+})
+
 
 
 let port = 8081;
